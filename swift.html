@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>About SWIFT</title>
+</head>
+
+<body>
+    <header>
+        <h1>About SWIFT</h1>
+    </header>
+
+    <main>
+        <p>SWIFT is very cool; this is where I do most of my Cybersecurity projects and give them to the community.
+            SWIFT has been around for around 30 years and provides some of the highest-quality cybersecurity curriculum
+            for our competition teams and more.</p>
+
+        <h2>Some workshops:</h2>
+        <ul>
+            <li>Open Source Intelligence</li>
+            <li>Tricking a Chat Bot into giving sensitive information</li>
+            <li>Pentesting AWS</li>
+            <li>Pentesting Active Directory</li>
+            <li>And more!</li>
+        </ul>
+    </main>
+
+    <h2>AWS Vulnerable S3 bucket example</h2>
+    <p>For example, one of our challenges is to find an S3 bucket given some names, see if it exists then dump out the
+        contents of it and try to find sensative information.</p>
+    <code>
+        {
+            "Id": "Policy1694366980919",
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Sid": "Stmt1694366978409",
+                "Action": [
+                  "s3:GetObject"
+                ],
+                "Effect": "Allow",
+                "Resource": "arn:aws:s3:::chronos-nebula-terrestrialweapons/*",
+                "Principal": "*"
+              }
+            ]
+          }
+    </code>
+    <p>This bucket allows for user if they know the bucket exists to download every file, making this a very bad policy.
+    </p>
+
+    <blockquote>
+        SWIFT is very cool - Jimmy Peng
+    </blockquote>
+
+    <footer>
+        <p>Most of the elements can be found <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">here</a></p>
+    </footer>
+    <article>
+        <p>This is an article in the about SWIFT page.</p>
+    </article>
+</body>
+
+</html>
