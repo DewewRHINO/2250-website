@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    border-top: 5px solid #666;
+    position: relative;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0.95;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+main {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    clear: both;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #333;
+    quotes: "“" "”" "‘" "’";
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    word-break: break-all;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(to bottom, #ff7f00, #ff5500);
+    border: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+td, th {
+    text-align: left;
+}
+
+footer {
+    text-rendering: optimizeLegibility;
+    writing-mode: horizontal-tb;
+    z-index: 1;
+}
