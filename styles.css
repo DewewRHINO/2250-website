@@ -82,6 +82,17 @@ footer {
     z-index: 1;
 }
 
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
 /* Responsive Styles */
 
 @media (max-width: 768px) {
@@ -113,3 +124,4 @@ footer {
         padding: 5px;
     }
 }
+
